@@ -18,7 +18,7 @@ experience/             one page per role, linked from the home page
   _archive/             old role pages, not linked from the site
 award/                  one page per award
 blog/                   blog posts
-css/styles.css          all styling; the copper colour is --accent at the top
+css/styles.css          all styling; the green accent colour is --accent at the top
 js/main.js              timeline, accordion, fade-ins, copy-email buttons
 assets/
   hero-bg.jpg           home page photo
@@ -37,7 +37,7 @@ request to `main`, and merge it; the site updates a minute or two later.
 
 ## Editing
 
-- **Colour:** `--accent`, `--accent-deep` and `--accent-bright` at the top of `css/styles.css`.
+- **Colour:** the green `--accent`, `--accent-deep` and `--accent-bright` at the top of `css/styles.css`.
 - **Timeline:** the `<li class="era">` blocks in `index.html`.
 - **Role list:** the `<a class="rcard">` blocks in `index.html`; each links to a page in `experience/`.
 - **CV:** replace `assets/cv/Elin_Hexspoor_CV.pdf`, keeping the name.
