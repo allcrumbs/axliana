@@ -415,8 +415,8 @@ body{background:var(--bg);color:var(--text)}
 .modal__card .btn--primary{width:100%;justify-content:center;margin-top:.3rem}
 
 /* photo galleries on experience pages */
-.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.8rem;margin-top:.4rem}
-.photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line-strong);box-shadow:0 14px 30px -22px rgba(0,0,0,.9)}
+.photo-grid{columns:2 260px;column-gap:.8rem;margin-top:.4rem}
+.photo-grid img{display:block;width:100%;height:auto;margin:0 0 .8rem;break-inside:avoid;border-radius:12px;border:1px solid var(--line-strong);box-shadow:0 14px 30px -22px rgba(0,0,0,.9)}
 .tl__shot[style*="url"] .tl__shot-lbl{position:absolute;left:1rem;bottom:.9rem;text-align:left}
 
 /* minor role (milestone) hover: underline reveals left to right under role + org, then arrow */
