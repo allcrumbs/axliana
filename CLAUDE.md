@@ -21,5 +21,6 @@ Elin's personal portfolio website. Plain HTML, CSS and JavaScript; no build step
 ## Facts
 
 - Live site: https://allcrumbs.github.io/elin-hexspoor/. The full address is also in the `og:image` and `og:url` lines of `index.html`.
-- Unused pages and photos go in `experience/_archive/` and `assets/_archive/`, not deleted.
+- Pages people visit sit at the top level or in `awards/`, `blog/` and `experience/`. Everything else goes under `assets/`.
+- Unused files go in the matching folder of `archive/`, not deleted. Pages there aren't kept working.
 - The site shows Elin's previous official name nowhere. Keep it that way.
