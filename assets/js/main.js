@@ -366,21 +366,3 @@
   })();
 
 })();
-
-/* ---- smooth scrolling via Lenis (graceful: native scroll if it fails to load) ---- */
-(function () {
-  if (!window.matchMedia || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return; // desktop only; touch is already smooth
-  var sc = document.createElement('script');
-  sc.src = 'https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js';
-  sc.async = true;
-  sc.onload = function () {
-    if (!window.Lenis) return;
-    try {
-      var lenis = new window.Lenis({ duration: 1.05, smoothWheel: true, wheelMultiplier: 1 });
-      function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
-      requestAnimationFrame(raf);
-    } catch (e) {}
-  };
-  document.head.appendChild(sc);
-})();
