@@ -31,6 +31,7 @@ archive/                unused files, kept for reference, not linked from the si
   images/               old photos
   cv/                   old CV
 .nojekyll               tells GitHub Pages to serve files as they are
+LICENSE                 copyright notice: all rights reserved
 ```
 
 ## Publishing
@@ -55,6 +56,11 @@ python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000.
+
+## Copyright
+
+© 2026 Elin S. Hexspoor. All rights reserved. The code, design, text and
+photos may not be copied or reused without written permission. See `LICENSE`.
 
 ## Open items
 
