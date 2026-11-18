@@ -20,7 +20,10 @@ Elin's personal portfolio website. Plain HTML, CSS and JavaScript; no build step
 
 ## Facts
 
-- Live site: https://allcrumbs.github.io/elin-hexspoor/. The full address is also in the `og:image` and `og:url` lines of `index.html`.
+- Live site: https://axliana.com, set by the `CNAME` file. The address is also in the `og:image` and `og:url` lines of `index.html` and in the CV's links.
+- Repo: `allcrumbs/axliana`. The owner wants the site hard to link to her by name: keep her name out of the repo name, domain and file names.
 - Pages people visit sit at the top level or in `awards/`, `blog/` and `experience/`. Everything else goes under `assets/`.
 - Unused files go in the matching folder of `archive/`, not deleted. Pages there aren't kept working.
-- The site shows Elin's previous official name nowhere. Keep it that way.
+- The former name appears only in the "Earlier publications and awards may appear under former name" note and the TEDx poster. Don't add it elsewhere.
+- The CV on the site leaves out the street address.
+- A link check must include `url(...)` backgrounds in pages and styles, not only `src` and `href`.
